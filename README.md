@@ -8,8 +8,8 @@
 AE_GMM_Generation/
 ├── data_loader.py   # MNIST 下载 & 加载
 ├── autoencoder.py   # MLP Autoencoder
-├── gmm.py           # 手写 GMM + EM（full / diag / spherical）
-├── vbgmm.py         # 手写 VBGMM（自动裁剪成分）
+├── gmm.py           # GMM class + EM 算法（full / diag / spherical）
+├── vbgmm.py         # VBGMM class（自动裁剪成分）
 ├── representation.py# AE 表示层接口
 ├── train.py         # 训练入口
 ├── generate.py      # 采样生成图像
